@@ -1,5 +1,7 @@
 ## Project Background
-This project analyzes hospital volunteer call activity and performance trends. The synthetic dataset was inspired by my volunteer experience at a Sutter Health hospital. To simulate real-world data challenges, I used AI to generate messy data with issues such as inconsistent date formats and extra spaces, which I cleaned and prepared in SQL before analyzing in Tableau.
+This project analyzes hospital volunteer call activity and performance trends. The synthetic dataset was inspired by my volunteer experience at a Sutter Health hospital. I used AI to generate messy data with issues such as inconsistent date formats and extra spaces, which I cleaned and prepared in SQL before analyzing in Tableau.
+
+The dashboard is created for the volunteer coordinator who wants to know the performance and attendance of the volunteers. 
 
 ## Dataset
 
