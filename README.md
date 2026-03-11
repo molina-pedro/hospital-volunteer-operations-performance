@@ -25,11 +25,10 @@ This project analyzes hospital volunteer call activity using synthetic data clea
 
 Key Insights
 
-* Call volume shows a seasonal pattern, with lower activity in spring and higher demand toward the end of the year.
-* Annual call volume increases from 2021 to 2025, indicating growing demand for volunteer support.
-* Peak call activity occurs between 9 AM and 10 AM, suggesting more volunteer coverage is needed during morning hours.
-* A small number of volunteers handle the majority of calls, showing workload is not evenly distributed.
-* Attendance rate is below 100%, indicating some missed shifts that may affect coverage.
+- Call volume follows a seasonal pattern, with lower activity in spring and higher demand toward the end of the year.
+- Annual call volume increases from 2021 to 2025, indicating growing demand for volunteer support.
+- Peak call activity occurs between 9 AM and 10 AM, suggesting additional volunteer coverage may be needed during morning hours.
+- Call handling is concentrated among a small number of volunteers, showing workload is not evenly distributed.
 
 ## Key Findings
 
