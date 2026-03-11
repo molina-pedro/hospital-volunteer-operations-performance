@@ -8,17 +8,17 @@ The dashboard is created for the volunteer coordinator who wants to know the per
 **Raw/Messy Files** </br>
 Date type is set to text for clean up
 
-<img width="994" height="844" alt="raw_files" src="https://github.com/user-attachments/assets/8b81ff34-7df0-42fd-8ba7-8a6f2f79e4ff" /></br></br>
+<img width="2982" height="2532" alt="raw_files" src="https://github.com/user-attachments/assets/345023db-dc1c-4d25-ac69-3e0691533dea" /></br></br>
 
 **Clean Files** </br>
 Proper data types ready to be joined
 
-<img width="994" height="961" alt="clean_files" src="https://github.com/user-attachments/assets/7976604c-171a-4110-ad97-ed41ea4224cc" /></br></br>
+<img width="2982" height="2883" alt="clean_files" src="https://github.com/user-attachments/assets/296a9b6a-89f6-47fb-92cf-1e4ac6d38246" /></br></br>
 
 **View Files** </br>
 Files used for Tableu Dashboard
 
-<img width="994" height="975" alt="view_files" src="https://github.com/user-attachments/assets/69780f7e-bef7-4764-8c2a-894c6ed52c87" /></br></br>
+<img width="2982" height="2925" alt="view_files" src="https://github.com/user-attachments/assets/30598655-fff1-4597-b484-5853547813db" /></br></br>
 
 ## Exective Summary
 This project analyzes hospital volunteer call activity using synthetic data cleaned in SQL and visualized in Tableau. The dashboard highlights trends in call volume, peak hours, volunteer workload, and attendance to evaluate operational efficiency.
@@ -57,7 +57,7 @@ Key Insights
 <img width="3174" height="2400" alt="volunteer calls handled" src="https://github.com/user-attachments/assets/a7444041-0fc6-4c05-a0ba-97e1be41203e" />
 
 ## Dashboard
-<img width="2001" height="2002" alt="hospital volunteer operations dashboard" src="https://github.com/user-attachments/assets/35b0acbf-09f0-46ce-856e-ed0ba7e6fabb" />
+<img width="8364" height="8588" alt="hospital volunteer operations dashboard" src="https://github.com/user-attachments/assets/10f1bc62-a42f-485b-9e07-4a13f6192c36" />
 
 ## Tools
 **Tableau · Data Modeling · Business Analysis**
