@@ -52,17 +52,17 @@ This structure improves query performance and enables scalable analysis.
 **Raw/Messy Files** </br>
 Date type is set to text for clean up
 
-<img width="2982" height="2532" alt="raw_files" src="https://github.com/user-attachments/assets/d5ae29b9-b060-4f41-ad99-0e61c41d010f" /></br></br>
+<img width="2982" height="2532" alt="raw_files" src="https://github.com/user-attachments/assets/4b082c45-f850-476b-aa7a-c76096084b28" /></br></br>
 
 **Clean Files** </br>
 Proper data types ready to be joined
 
-<img width="2982" height="2883" alt="clean_files" src="https://github.com/user-attachments/assets/296a9b6a-89f6-47fb-92cf-1e4ac6d38246" /></br></br>
+<img width="2982" height="2883" alt="clean_files" src="https://github.com/user-attachments/assets/4f47dbd1-97e5-4d23-af57-08c2431b91c7" /></br></br>
 
 **View Files** </br>
 Files used for Tableu Dashboard
 
-<img width="2982" height="2925" alt="view_files" src="https://github.com/user-attachments/assets/30598655-fff1-4597-b484-5853547813db" /></br></br>
+<img width="2982" height="2925" alt="view_files" src="https://github.com/user-attachments/assets/67e9ce5c-7074-4060-96ae-506525560393" /></br></br>
 
 ## Analysis Approach
 - Calculated total call volume and trends over time
