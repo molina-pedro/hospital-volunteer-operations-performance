@@ -1,5 +1,4 @@
-<img width="900" height="258" alt="Sutter Health" src="https://github.com/user-attachments/assets/8c3a3148-77f9-42ce-a837-f41e98d06fb4" />
-
+<img width="900" height="228" alt="Frame 2" src="https://github.com/user-attachments/assets/559c690c-4206-46e7-923a-14c521424c0d" />
 
 ## Executive Summary
 This project analyzes hospital volunteer call operations to evaluate workload distribution, staffing efficiency, and call demand patterns.
@@ -53,7 +52,7 @@ This structure improves query performance and enables scalable analysis.
 **Raw/Messy Files** </br>
 Date type is set to text for clean up
 
-<img width="2982" height="2532" alt="raw_files" src="https://github.com/user-attachments/assets/345023db-dc1c-4d25-ac69-3e0691533dea" /></br></br>
+<img width="2982" height="2532" alt="raw_files" src="https://github.com/user-attachments/assets/d5ae29b9-b060-4f41-ad99-0e61c41d010f" /></br></br>
 
 **Clean Files** </br>
 Proper data types ready to be joined
@@ -110,7 +109,7 @@ Files used for Tableu Dashboard
 **Methods:** Data cleaning, data modeling, KPI design, workload analysis, trend analysis
 
 ## Link
-- [Next Project - Retailrocket Ecommerce Analysis](https://github.com/molina-pedro/retailrocket-ecommerce-analysis)
+[Next Project - Retailrocket Ecommerce Analysis](https://github.com/molina-pedro/retailrocket-ecommerce-analysis)
 
 
 
