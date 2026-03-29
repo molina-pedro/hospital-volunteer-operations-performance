@@ -109,7 +109,7 @@ Joined tables used for Tableu Dashboard
 **Methods:** Data cleaning, data modeling, KPI design, workload analysis, trend analysis
 
 ## Link
-[Next Project - Retailrocket Ecommerce Analysis Repository](https://github.com/molina-pedro/retailrocket-ecommerce-analysis) <br>
+[Next Project - RetailRocket E-commerce Conversion Rate Analysis](https://github.com/molina-pedro/retailrocket-ecommerce-analysis)
 
 
 
