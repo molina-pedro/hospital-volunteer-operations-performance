@@ -1,4 +1,5 @@
-<img width="1852" height="704" alt="sutter health logo" src="https://github.com/user-attachments/assets/44276c75-acf2-423c-84fb-a756911f4d25" />
+<img width="900" height="258" alt="Sutter Health" src="https://github.com/user-attachments/assets/8c3a3148-77f9-42ce-a837-f41e98d06fb4" />
+
 
 ## Executive Summary
 This project analyzes hospital volunteer call operations to evaluate workload distribution, staffing efficiency, and call demand patterns.
