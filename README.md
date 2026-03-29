@@ -1,4 +1,4 @@
-<img width="900" height="228" alt="Frame 2" src="https://github.com/user-attachments/assets/559c690c-4206-46e7-923a-14c521424c0d" />
+<img width="900" height="228" alt="Frame 2" src="https://github.com/user-attachments/assets/77f9c7eb-0d01-4d00-8331-344fde83bd45" />
 
 ## Executive Summary
 This project analyzes hospital volunteer call operations to evaluate workload distribution, staffing efficiency, and call demand patterns.
@@ -60,7 +60,7 @@ Proper data types ready to be joined
 <img width="2982" height="2883" alt="clean_files" src="https://github.com/user-attachments/assets/4f47dbd1-97e5-4d23-af57-08c2431b91c7" /></br></br>
 
 **View Files** </br>
-Files used for Tableu Dashboard
+Joined tables used for Tableu Dashboard
 
 <img width="2982" height="2925" alt="view_files" src="https://github.com/user-attachments/assets/67e9ce5c-7074-4060-96ae-506525560393" /></br></br>
 
@@ -109,7 +109,9 @@ Files used for Tableu Dashboard
 **Methods:** Data cleaning, data modeling, KPI design, workload analysis, trend analysis
 
 ## Link
-[Next Project - Retailrocket Ecommerce Analysis](https://github.com/molina-pedro/retailrocket-ecommerce-analysis)
+[Next Project - Retailrocket Ecommerce Analysis Repository](https://github.com/molina-pedro/retailrocket-ecommerce-analysis) <br>
+
+
 
 
 
