@@ -3,11 +3,6 @@
 ## Executive Summary
 This project analyzes hospital volunteer call operations to evaluate workload distribution, staffing efficiency, and call demand patterns.
 
-### Key Insights:
-- Call volume shows clear seasonal trends, with demand increasing toward the end of the year and peaking in winter months
-- Workload is unevenly distributed, with a small group of volunteers handling a disproportionate share of calls
-- Peak call activity occurs in the morning, indicating a mismatch between staffing levels and demand
-
 ## Business Questions
 - Are volunteer shifts aligned with peak call demand?
 - Is workload evenly distributed across volunteers?
