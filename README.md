@@ -54,14 +54,6 @@ Joined tables used for Tableu Dashboard
 
 <img width="2982" height="2925" alt="view_files" src="https://github.com/user-attachments/assets/67e9ce5c-7074-4060-96ae-506525560393" /></br></br>
 
-## Analysis Approach
-- Calculated total call volume and trends over time
-- Analyzed call distribution by hour of day
-- Measured workload per volunteer
-- Identified top-performing volunteers and workload concentration
-- Evaluated attendance and shift coverage
-- Assessed seasonal demand patterns
-
 ## Key Findings
 
 ### Call Volume Trends
