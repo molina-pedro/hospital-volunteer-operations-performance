@@ -23,12 +23,6 @@ This project uses a synthetic dataset designed to reflect realistic hospital fro
 - ~70+ volunteers
 - Realistic data issues (missing values, inconsistent formatting, outliers)
 
-## Data Preparation
-- Cleaned inconsistent date and time formats
-- Handled missing and null values in call records
-- Standardized fields across multiple raw datasets
-- Built structured tables for analysis (fact + dimension style model)
-
 ## Data Model
 The dataset was structured to support analysis and visualization:
 
