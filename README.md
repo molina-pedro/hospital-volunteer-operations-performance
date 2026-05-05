@@ -8,11 +8,6 @@ This project analyzes hospital volunteer call operations to evaluate workload di
 - Workload is unevenly distributed, with a small group of volunteers handling a disproportionate share of calls
 - Peak call activity occurs in the morning, indicating a mismatch between staffing levels and demand
 
-### Business Impact:
-- Aligning volunteer schedules with peak demand can improve coverage and reduce response delays
-- Redistributing workload can help prevent volunteer burnout and improve retention
-- Adjusting staffing during high-demand periods can improve operational efficiency without increasing costs
-
 ## Business Questions
 - Are volunteer shifts aligned with peak call demand?
 - Is workload evenly distributed across volunteers?
