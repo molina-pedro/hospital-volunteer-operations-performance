@@ -1,95 +1,114 @@
 <img width="900" height="228" alt="Frame 2" src="https://github.com/user-attachments/assets/77f9c7eb-0d01-4d00-8331-344fde83bd45" />
 
+# Hospital Volunteer Operations Performance
+
+This project analyzes hospital volunteer call operations from 2021–2025 to evaluate staffing demand, workload distribution, attendance trends, and operational efficiency.
+
+Using PostgreSQL and Tableau, the project transforms raw operational data into an interactive dashboard designed to support scheduling and staffing decisions in a hospital environment.
+
+## Dashboard
+
+<img width="8364" height="8588" alt="hospital volunteer operations dashboard" src="https://github.com/user-attachments/assets/10f1bc62-a42f-485b-9e07-4a13f6192c36" />
+
 ## Executive Summary
-This project analyzes hospital volunteer call operations to evaluate workload distribution, staffing efficiency, and call demand patterns.
+
+The analysis identified several operational patterns affecting volunteer coverage and workload distribution:
+
+- Call demand increases significantly during winter months
+- Peak call activity occurs between 9 AM and 10 AM
+- A small group of volunteers handle a disproportionate share of calls
+- Annual call volume steadily increased from 2021 to 2025
+- Attendance rates indicate opportunities to improve scheduling reliability
+
+These insights can help hospital coordinators better align volunteer staffing with operational demand.
 
 ## Business Questions
+
 - Are volunteer shifts aligned with peak call demand?
 - Is workload evenly distributed across volunteers?
-- Are there periods of under- or over-staffing?
-- How can volunteer scheduling be optimized to improve efficiency and coverage?
-
-## Dataset Overview
-This project uses a synthetic dataset designed to reflect realistic hospital front-desk volunteer operations.
-
-### Data includes:
-- Volunteer information (ID, shift type)
-- Call logs (timestamp, duration, reason)
-- Shift schedules and attendance
-- Seasonal patterns and operational variability
-
-### Dataset characteristics:
-- ~11,000+ call records
-- ~70+ volunteers
-- Realistic data issues (missing values, inconsistent formatting, outliers)
-
-## Data Model
-The dataset was structured to support analysis and visualization:
-
-- **fact_volunteer_calls** – call-level data
-- **dim_volunteer** – volunteer details
-- **dim_reason** – call categories
-- **dim_date** – date and time breakdown
-
-This structure improves query performance and enables scalable analysis.
-
-**Raw/Messy Files** </br>
-Date type is set to text for clean up
-
-<img width="2982" height="2532" alt="raw_files" src="https://github.com/user-attachments/assets/4b082c45-f850-476b-aa7a-c76096084b28" /></br></br>
-
-**Clean Files** </br>
-Proper data types ready to be joined
-
-<img width="2982" height="2883" alt="clean_files" src="https://github.com/user-attachments/assets/4f47dbd1-97e5-4d23-af57-08c2431b91c7" /></br></br>
-
-**View Files** </br>
-Joined tables used for Tableu Dashboard
-
-<img width="2982" height="2925" alt="view_files" src="https://github.com/user-attachments/assets/67e9ce5c-7074-4060-96ae-506525560393" /></br></br>
+- Which time periods experience the highest operational demand?
+- Are attendance rates impacting volunteer coverage?
+- How can staffing efficiency be improved?
 
 ## Key Findings
 
-### Call Volume Trends
-- Call volume follows a seasonal pattern, with lower activity in spring and higher demand toward the end of the year
-- Peak demand occurs in winter months, increasing operational pressure on volunteers
+### Seasonal Call Trends
+- Call activity follows a seasonal pattern, with demand increasing toward the end of the year and peaking during winter months.
+
 <img width="2958" height="2097" alt="monthly call volume" src="https://github.com/user-attachments/assets/52668076-86a8-48e7-80c3-2f9c9ffb0afb" />
 
-### Annual Call Volume
-- Call volume increases steadily from 2021 to 2025.
-- The upward trend suggests growing demand for volunteer support.
+### Annual Growth in Call Volume
+- Total yearly call volume increased consistently from 2021–2025, suggesting growing operational demand for volunteer support services.
+
 <img width="2958" height="2097" alt="annual call volume" src="https://github.com/user-attachments/assets/7602305d-11fa-491b-95cb-9deb49d4813f" />
 
-### Call Volume by Hour of Day
-- Call activity is highest between 9 AM and 10 AM
-- Indicates that current staffing may not be aligned with peak demand periods
+### Peak Hour Demand
+- The highest concentration of calls occurs between 9 AM and 10 AM, indicating staffing coverage may need adjustment during morning hours.
+
 <img width="3174" height="2460" alt="hourly call volume" src="https://github.com/user-attachments/assets/d2cc1579-aac2-4be8-826d-0a90688622ac" />
 
-### Workload Distribution
-- A small number of volunteers handle a large portion of total calls
-- Creates dependency risk and potential burnout among high-performing volunteers
+### Uneven Workload Distribution
+- A small percentage of volunteers handled a large portion of total calls, creating potential dependency and burnout risk.
+
 <img width="3174" height="2400" alt="volunteer calls handled" src="https://github.com/user-attachments/assets/a7444041-0fc6-4c05-a0ba-97e1be41203e" />
 
 ## Operational Recommendations
-- Increase volunteer coverage during peak hours (9 AM – 11 AM)
-- Redistribute call assignments to balance workload across volunteers
-- Monitor high-performing volunteers to prevent burnout
-- Adjust staffing levels during high-demand seasons (winter months)
-- Improve attendance tracking and scheduling reliability
 
-## Dashboard
-<img width="8364" height="8588" alt="hospital volunteer operations dashboard" src="https://github.com/user-attachments/assets/10f1bc62-a42f-485b-9e07-4a13f6192c36" />
+- Increase volunteer coverage during peak morning hours
+- Improve staffing during high-demand winter months
+- Redistribute call assignments more evenly across volunteers
+- Monitor high-performing volunteers to reduce burnout risk
+- Improve attendance tracking and scheduling processes
+
+## Dataset Overview
+
+This project uses a synthetic dataset designed to reflect realistic hospital front-desk volunteer operations.
+
+### Dataset Includes
+- Volunteer information and shift preferences
+- Call logs with timestamps, duration, and call reasons
+- Volunteer schedules and attendance records
+- Seasonal demand patterns and operational variability
+
+### Dataset Characteristics
+- ~11,000+ call records
+- ~70+ volunteers
+- Realistic data quality issues including missing values, inconsistent formatting, and outliers
+
+## Data Preparation & Modeling
+
+The project used a structured PostgreSQL workflow to clean, organize, and model operational data for analysis and visualization.
+
+### Data Model
+The final model included:
+
+- **fact_volunteer_calls** – call-level operational data
+- **dim_volunteers** – volunteer details
+- **dim_call_reasons** – call categories
+- **dim_calendar** – date and time breakdowns
+
+This structure improves query performance and supports scalable dashboard reporting.
+
+### Raw / Messy Files
+Date and time fields were initially stored as text to simulate real-world data cleaning scenarios.
+
+<img width="2982" height="2532" alt="raw_files" src="https://github.com/user-attachments/assets/4b082c45-f850-476b-aa7a-c76096084b28" />
+
+### Clean Files
+Data was standardized with proper data types and structured relationships for SQL joins.
+
+<img width="2982" height="2883" alt="clean_files" src="https://github.com/user-attachments/assets/4f47dbd1-97e5-4d23-af57-08c2431b91c7" />
+
+### View Files
+View tables were created to support Tableau dashboard reporting.
+
+<img width="2982" height="2925" alt="view_files" src="https://github.com/user-attachments/assets/67e9ce5c-7074-4060-96ae-506525560393" />
 
 ## Tools & Methods
-**Tools:** PostgreSQL, Tableau <br>
-**Methods:** Data cleaning, data modeling, KPI design, workload analysis, trend analysis
+
+**Tools:** PostgreSQL, Tableau  
+**Methods:** Data cleaning, SQL joins, data modeling, KPI design, workload analysis, dashboard reporting
 
 ## Link
+
 [Next Project - RetailRocket E-commerce Conversion Rate Analysis](https://github.com/molina-pedro/retailrocket-ecommerce-analysis)
-
-
-
-
-
-
-
